@@ -1,5 +1,5 @@
 Açık Arttırma oyununda klavyeden müzayedeye katılan kişi sayısı alınacak
-ve kisi sayısı kadar teklif alınacak tabii ki gelen teklifin önceki teklif,takliflerden veya başlangıç fiyatından yüksek olması gerekiyor
+ve kisi sayısı kadar teklif alınacak tabii ki gelen teklifin önceki teklif,tekliflerden veya başlangıç fiyatından yüksek olması gerekiyor
 aksi takdirde oyun o kişiye hata verip diğer kişi veya kişilerden teklif almaya devam edecek
 Struct : verileri tanımlayıp main içinde kullanmamızı sağlar bir nevi  kalıtım gibi
 Pointer : verilerin bellekte tutulma adresleridir 
