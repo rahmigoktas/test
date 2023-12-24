@@ -9,5 +9,6 @@ tek bir değişken tanımlayıp o değişkenden aynı veri tipinde yeni değişk
 
 sayi s1,s2,s3,toplam;
 
+Kod Çıktısı : 
 
 ![kodcikti](https://github.com/rahmigoktas/test/assets/149701787/5f8e21ce-949f-448d-b571-0398f185866b)
