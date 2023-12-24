@@ -6,5 +6,6 @@ Pointer : verilerin bellekte tutulma adresleridir
 Typdef : aynı veri tipinde birden fazla değişkene ihtiyacımız varsa bütün değişkenleri tek bir yerde çağırmamız için başlangıçta 
 tek bir değişken tanımlayıp o değişkenden aynı veri tipinde yeni değişkenler oluşturur.
 Örnek Kullanım : typedef int sayi;
+
 sayi s1,s2,s3,toplam;
 
