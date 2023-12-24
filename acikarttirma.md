@@ -9,3 +9,5 @@ tek bir değişken tanımlayıp o değişkenden aynı veri tipinde yeni değişk
 
 sayi s1,s2,s3,toplam;
 
+
+https://github.com/rahmigoktas/test/issues/1#issue-2055114788
