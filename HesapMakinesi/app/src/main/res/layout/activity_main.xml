@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#363636">
+
+    <!-- Sonuç / Giriş ekranı -->
+    <TextView
+        android:id="@+id/textViewInput"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textSize="32sp"
+        android:gravity="end|center_vertical"
+        android:padding="12dp"
+        android:background="#FFFFFF"
+        android:text="0"
+        android:textColor="#000000"
+        android:elevation="4dp" />
+
+    <!-- Tuş Takımı -->
+
+    <!-- = Butonu -->
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1"
+        android:alignmentMode="alignMargins"
+        android:columnCount="4"
+        android:rowCount="4"
+        android:rowOrderPreserved="false"
+        android:useDefaultMargins="true">
+
+        <!-- Buraya butonlar gelecek (bir sonraki adımda) -->
+
+        <!-- 1. Satır -->
+        <Button
+            android:id="@+id/button7"
+            style="@style/CalcButton"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/button8"
+            style="@style/CalcButton"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/button9"
+            style="@style/CalcButton"
+            android:text="9" />
+
+        <Button
+            android:id="@+id/buttonDivide"
+            style="@style/CalcButton"
+            android:text="÷" />
+
+        <!-- 2. Satır -->
+        <Button
+            android:id="@+id/button4"
+            style="@style/CalcButton"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/button5"
+            style="@style/CalcButton"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/button6"
+            style="@style/CalcButton"
+            android:text="6" />
+
+        <Button
+            android:id="@+id/buttonMultiply"
+            style="@style/CalcButton"
+            android:text="×" />
+
+        <!-- 3. Satır -->
+        <Button
+            android:id="@+id/button1"
+            style="@style/CalcButton"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/CalcButton"
+            android:background="@color/cardview_light_background"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/button3"
+            style="@style/CalcButton"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/buttonMinus"
+            style="@style/CalcButton"
+            android:text="-" />
+
+        <!-- 4. Satır -->
+        <Button
+            android:id="@+id/buttonClear"
+            style="@style/CalcButton"
+            android:text="C" />
+
+        <Button
+            android:id="@+id/button0"
+            style="@style/CalcButton"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/buttonDot"
+            style="@style/CalcButton"
+            android:text="." />
+
+        <Button
+            android:id="@+id/buttonPlus"
+            style="@style/CalcButton"
+            android:text="+" />
+
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/buttonEquals"
+        style="@style/ButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="8dp"
+        android:text="=" />
+</LinearLayout>
